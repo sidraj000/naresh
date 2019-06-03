@@ -30,7 +30,7 @@ TextView tv1,tv2,tv3;
                 mDet=dataSnapshot.getValue(MatchDetail.class);
                 tv1.setText(mDet.t1_date);
                 tv2.setText(mDet.teamA);
-                tv3.setText(mDet.teamB);
+
 
             }
 
